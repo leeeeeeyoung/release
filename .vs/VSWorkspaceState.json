@@ -8,6 +8,6 @@
     "\\src-tauri",
     "\\src-tauri\\src"
   ],
-  "SelectedNode": "\\src-tauri\\tauri.conf.json",
+  "SelectedNode": "\\.github\\workflows\\publish.yml",
   "PreviewInSolutionExplorer": false
 }
