@@ -50,7 +50,14 @@
       "csp": null
     },
     "updater": {
-      "active": false
+      "active": true,
+      "endpoints": [
+        "https://releases.chatboxai.app/chatbox/{{target}}/{{current_version}}",
+        "https://gist.githubusercontent.com/Bin-Huang/cf0b7684e28b30d760ba02417bbac916/raw/chatbox.releases.json",
+        "https://gist.githubusercontent.com/Bin-Huang/cf0b7684e28b30d760ba02417bbac916/raw"
+      ],
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDE4QkI1NDg3MUNFRjRFQTgKUldTb1R1OGNoMVM3R084K3BHL2FnU0d0N0xET2d4dDhrWGNSUUtTUDNvYVhoaWw4bnJOcEpZNW4K"
     },
     "windows": [
       {
