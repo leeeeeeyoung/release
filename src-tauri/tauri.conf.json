@@ -7,7 +7,7 @@
   },
   "package": {
     "productName": "my-app",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   "tauri": {
     "allowlist": {
@@ -52,9 +52,7 @@
     "updater": {
       "active": true,
       "endpoints": [
-        "https://releases.chatboxai.app/chatbox/{{target}}/{{current_version}}",
-        "https://gist.githubusercontent.com/Bin-Huang/cf0b7684e28b30d760ba02417bbac916/raw/chatbox.releases.json",
-        "https://gist.githubusercontent.com/Bin-Huang/cf0b7684e28b30d760ba02417bbac916/raw"
+        "https://gist.githubusercontent.com/leeeeeeyoung/6270b95a98b19f31e8c446a23c7f9251/raw/myapp-releases.json"
       ],
       "dialog": true,
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDE4QkI1NDg3MUNFRjRFQTgKUldTb1R1OGNoMVM3R084K3BHL2FnU0d0N0xET2d4dDhrWGNSUUtTUDNvYVhoaWw4bnJOcEpZNW4K"
